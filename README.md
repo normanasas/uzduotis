@@ -1,7 +1,7 @@
-# nginx, php ir mysql server documentation file
+### nginx, php ir mysql server documentation file
 
-# before launching the server make sure you have the latest versions of Docker-CE and Docker-composer
-# You can find the instructions on how to install Docker-CE at https://docs.docker.com/install/
+##### before launching the server make sure you have the latest versions of Docker-CE and Docker-composer
+##### You can find the instructions on how to install Docker-CE at https://docs.docker.com/install/
 
 1. Download all required files from https://github.com/adeoweb/devops-workshop
 2. Extract the files wherever you like
