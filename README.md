@@ -1,11 +1,11 @@
-#nginx, php ir mysql server documentation file
+# nginx, php ir mysql server documentation file
 
-before launching the server make sure you have the latest versions of Docker-CE and Docker-composer
-You can find the instructions on how to install Docker-CE at https://docs.docker.com/install/
+# before launching the server make sure you have the latest versions of Docker-CE and Docker-composer
+# You can find the instructions on how to install Docker-CE at https://docs.docker.com/install/
 
 1. Download all required files from https://github.com/adeoweb/devops-workshop
 2. Extract the files wherever you like
-3. Download the configuration files from (mano github)
+3. Download the configuration files (docker-compose.yml and nginx.conf) from this repository
 4. Put the docker-compose.yml and nginx.conf files into the devops-workshop-master folder
 5. Open up a terminal windows and while you're in the devops-workshop-master folder type "sudo docker-compose up"
 6. In a new terminal window type "sudo docker exec -it devopsworkshopmaster_php_1 bash -c "cd /main;composer update;composer install"" and wait until the installation has finished
