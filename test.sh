@@ -1,7 +1,0 @@
-XD
-XDXD
-
-XXD
-D
-D
-X
